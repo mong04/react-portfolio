@@ -5,7 +5,8 @@
   z-index: 996;
 }
 .brand-logo {
-  font-weight: 100
+  font-weight: 100;
+  letter-spacing: 0.03em
 }
 div.valign-wrapper {
   height: 10em;
@@ -18,6 +19,9 @@ div.valign-wrapper h2 {
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%)
+}
+.footer-copyright {
+  background-color: #212121 !important
 }
 @media only screen and (max-width: 992px) {
   .nav {

@@ -1,5 +1,11 @@
+/* palette #FFF(White), #404040(dark gray), #7f7f7f(light gray), #000(black), #E5E5E5(very light gray) */
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-image: url(./images/exa.png)
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
 }

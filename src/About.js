@@ -4,7 +4,7 @@ class About extends Component {
     render() {
         return(
             <div id="bio">
-                <h4 className="center-align white-text">
+                <h4 className="center-align">
                     Hey!
                     <br/>
                     My name's Andrew and I'm a Fullstack developer from Phoenix, AZ. 

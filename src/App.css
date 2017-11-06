@@ -18,28 +18,31 @@ div.valign-wrapper h2 {
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%);
 }
 #skills {
-  background-color: #E5E5E5
+  background-color: #E5E5E5;
 }
 .skill-card {
-  max-width: 250px
+  max-width: 250px;
+}
+.ide-img {
+  height: 350px;
 }
 .footer-copyright {
   background-color: #212121 !important
 }
 @media only screen and (max-width: 992px) {
   .nav {
-    padding: 0
+    padding: 0;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .nav {
-    padding: 0
+    padding: 0;
   }
   .brand-logo {
-    font-size: 1.75em !important
+    font-size: 1.75em !important;
   }
 }

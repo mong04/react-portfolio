@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { Navbar, NavItem, Footer, Container, Parallax } from 'react-materialize';
 import About from './About';
 import Skills from './Skills';
+import phoenix from './images/phoenix.jpg';
+import ide from './images/ide.jpg';
 import git from './images/git.png';
 import linkedin from './images/linkedin.png';
 import so from './images/so.png';
@@ -35,12 +37,13 @@ class App extends Component {
             <NavItem divider></NavItem>
           </Navbar>
           </div>
-        <Parallax imageSrc="https://media.azpm.org/master/image/2017/2/24/hero/downtown-phoeni.jpg"/>
+        <Parallax className="phoenix" imageSrc={ phoenix }/>
 
         <Container>
           <About />
-          </Container>
-          <Skills />
+        </Container>
+        <Skills />
+        <Parallax className="ide-img" imageSrc={ ide }/>
         <Footer copyrights="Made by Andrew Sanchez" className="grey darken-3"
         links={
           <ul>

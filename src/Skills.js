@@ -1,14 +1,14 @@
 import React, { Component }from 'react';
 import { Row, Col, Container, Card } from 'react-materialize';
-import js from './images/js.svg';
-import nodejs from './images/nodejs.svg';
-import react from './images/react.svg';
-import git from './images/git.svg';
-import mongo from './images/mongo.svg';
-import mysql from './images/mysql.svg';
-import bootstrap from './images/bootstrap.svg';
-import w3c from './images/w3c.svg';
-import wordpress from './images/wordpress.svg';
+import js from './images/skills/js.svg';
+import nodejs from './images/skills/nodejs.svg';
+import react from './images/skills/react.svg';
+import git from './images/skills/git.svg';
+import mongo from './images/skills/mongo.svg';
+import mysql from './images/skills/mysql.svg';
+import bootstrap from './images/skills/bootstrap.svg';
+import w3c from './images/skills/w3c.svg';
+import wordpress from './images/skills/wordpress.svg';
 
 const nodeStyle = {
     marginTop: '19.3%',

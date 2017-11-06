@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import { Navbar, NavItem, Footer, Container, Parallax } from 'react-materialize';
 import About from './About';
 import Skills from './Skills';
-import phoenix from './images/phoenix.jpg';
-import ide from './images/ide.jpg';
-import git from './images/git.png';
-import linkedin from './images/linkedin.png';
-import so from './images/so.png';
+import Portfolio from './Portfolio';
+import phoenix from './images/parallax/phoenix.jpg';
+import ide from './images/parallax/ide.jpg';
+import git from './images/social/git.png';
+import linkedin from './images/social/linkedin.png';
+import so from './images/social/so.png';
 import './App.css';
 
 const soStyle = {
@@ -46,6 +47,8 @@ class App extends Component {
         </Container>
         <Skills />
         <Parallax className="ide-img" imageSrc={ ide }/>
+        <Portfolio />
+        
         <Footer copyrights="Made by Andrew Sanchez" className="grey darken-3"
         links={
           <ul>

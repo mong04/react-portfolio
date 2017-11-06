@@ -4,7 +4,7 @@ import { Row, Col } from 'react-materialize';
 class About extends Component {
     render() {
         return(
-            <div id="bio">
+            <div id="about" className="section scrollspy">
                     <Row>
                         <Col s={12}>
                             <h4 className="center-align">

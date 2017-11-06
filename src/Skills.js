@@ -35,7 +35,7 @@ const w3cStyle = {
 class Skills extends Component {
     render() {
         return(
-            <div id="skills">
+            <div id="skills" className="section scrollspy">
                 <Container>
                     <br/>
                     <h2>Skills</h2>

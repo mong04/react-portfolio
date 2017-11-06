@@ -22,19 +22,21 @@ class App extends Component {
     return (
       <div>
         <div className="navbar-fixed z-depth-4">
-          <Navbar className="nav black" brand="Andrew Sanchez" fixed right>            
-            <NavItem>About Me</NavItem>
-            <NavItem divider></NavItem>
-            <NavItem>Skills</NavItem>
-            <NavItem divider></NavItem>
-            <NavItem>Portfolio</NavItem>
-            <NavItem divider></NavItem>
-            <NavItem>Interests</NavItem>
-            <NavItem divider></NavItem>
-            <NavItem>Contact</NavItem>
-            <NavItem divider></NavItem>
-            <NavItem>Resume</NavItem>
-            <NavItem divider></NavItem>
+          <Navbar className="nav black section" brand="Andrew Sanchez" fixed right>            
+            <ul className="section table-of-contents">
+              <NavItem href="#about">About Me</NavItem>
+              <NavItem divider></NavItem>
+              <NavItem href="#skills">Skills</NavItem>
+              <NavItem divider></NavItem>
+              <NavItem href="#portfolio">Portfolio</NavItem>
+              <NavItem divider></NavItem>
+              <NavItem href="#interests">Interests</NavItem>
+              <NavItem divider></NavItem>
+              <NavItem href="#contact">Contact</NavItem>
+              <NavItem divider></NavItem>
+              <NavItem href="#resume">Resume</NavItem>
+              <NavItem divider></NavItem>
+            </ul>
           </Navbar>
           </div>
         <Parallax className="phoenix" imageSrc={ phoenix }/>

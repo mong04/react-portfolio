@@ -45,6 +45,10 @@ div.valign-wrapper h2 {
 .footer-copyright {
   background-color: #212121 !important
 }
+#resume-link {
+  color: #000 !important;
+  font-weight: bold;
+}
 @media only screen and (max-width: 992px) {
   .nav {
     padding: 0;

@@ -55,7 +55,8 @@ class App extends Component {
           </ul>
         }
         >
-          <h5 className="white-text">Connect with me on: </h5>
+        <h5>View my resume <a id="resume-link" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1Cu2nZuWDHLucWBDNb1IaI663U5xywcaIX_tTsn4PaCk/edit?usp=sharing">here</a></h5>
+        <h5 className="white-text">Connect with me on: </h5>
         </Footer>
       </div>
     );

@@ -52,6 +52,7 @@ class Portfolio extends Component {
                             </li>
                         </ul>
                     </Row>
+                    <br/>
                 </Container>
             </div>
         )

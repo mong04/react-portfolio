@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Navbar, NavItem, Footer, Container, Parallax } from 'react-materialize';
 import About from './About';
+import Skills from './Skills';
 import git from './images/git.png';
 import linkedin from './images/linkedin.png';
 import so from './images/so.png';
@@ -38,7 +39,8 @@ class App extends Component {
 
         <Container>
           <About />
-        </Container>
+          </Container>
+          <Skills />
         <Footer copyrights="Made by Andrew Sanchez" className="grey darken-3"
         links={
           <ul>

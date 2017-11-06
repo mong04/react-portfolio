@@ -20,6 +20,12 @@ div.valign-wrapper h2 {
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
+#skills {
+  background-color: #E5E5E5
+}
+.skill-card {
+  max-width: 250px
+}
 .footer-copyright {
   background-color: #212121 !important
 }

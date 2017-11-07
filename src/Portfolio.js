@@ -38,7 +38,8 @@ class Portfolio extends Component {
                                 <Card className="z-depth-4" header={<CardTitle reveal image={ tech } waves='light'/>}
                                     title='TechNews'
                                     reveal={<p>
-                                            An application that scrapes news from TechCrunch then allows the user to read and save articles.
+                                            An application that scrapes news from TechCrunch, stores the data in a database
+                                            then allows the user to read and save those articles.
                                         </p>}>
                                     <p><a target="_blank" rel="noopener noreferrer" href="https://technews-scraper.herokuapp.com/">App Link</a></p>
                                 </Card></Col>
@@ -47,7 +48,7 @@ class Portfolio extends Component {
                                 <Card className="z-depth-4" header={<CardTitle reveal image={ hangman } waves='light'/>}
                                     title='Hangman'
                                     reveal={<p>
-                                            A hangman game themed around Minecraft. It keeps track of letters guessed and how many guess the user has left.
+                                            A hangman game themed around Minecraft. It keeps track of letters guessed, guesses remaining and the amount of wins the user has.
                                         </p>}>
                                     <p><a target="_blank" rel="noopener noreferrer" href="https://mong04.github.io/Hangman-Game/">App Link</a></p>
                                 </Card></Col>

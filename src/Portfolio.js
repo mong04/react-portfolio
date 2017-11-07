@@ -18,35 +18,46 @@ class Portfolio extends Component {
                             <li><Col s={12} m={6} l={4}>
                                 <Card className="z-depth-4" header={<CardTitle reveal image={ keto } waves='light'/>}
                                     title='Keto System'
-                                    reveal={<p>information</p>}>
+                                    reveal={<p>
+                                            Web-application to assist those on or interested in a Ketogenic diet. 
+                                            Provides diet information, account creation, nutrition calculation and a profile to view user information.
+                                        </p>}>
                                     <p><a target="_blank" rel="noopener noreferrer" href="https://kdiet.herokuapp.com/home">App Link</a></p>
                                 </Card></Col>
                             </li>
                             <li><Col s={12} m={6} l={4}>
                                 <Card className="z-depth-4" header={<CardTitle reveal image={ movies } waves='light'/>}
                                     title='Movie Buff Hub'
-                                    reveal={<p>information</p>}>
+                                    reveal={<p>
+                                            Web app that allows users to search for movies, tv-shows, actors/actresses and get information about the subject.
+                                        </p>}>
                                     <p><a target="_blank" rel="noopener noreferrer" href="https://mong04.github.io/Movie-Buff-Hub/">App Link</a></p>
                                 </Card></Col>
                             </li>
                             <li><Col s={12} m={6} l={4}>
                                 <Card className="z-depth-4" header={<CardTitle reveal image={ tech } waves='light'/>}
                                     title='TechNews'
-                                    reveal={<p>information</p>}>
+                                    reveal={<p>
+                                            An application that scrapes news from TechCrunch then allows the user to read and save articles.
+                                        </p>}>
                                     <p><a target="_blank" rel="noopener noreferrer" href="https://technews-scraper.herokuapp.com/">App Link</a></p>
                                 </Card></Col>
                             </li>
                             <li><Col s={12} m={6} l={4}>
                                 <Card className="z-depth-4" header={<CardTitle reveal image={ hangman } waves='light'/>}
                                     title='Hangman'
-                                    reveal={<p>information</p>}>
+                                    reveal={<p>
+                                            A hangman game themed around Minecraft. It keeps track of letters guessed and how many guess the user has left.
+                                        </p>}>
                                     <p><a target="_blank" rel="noopener noreferrer" href="https://mong04.github.io/Hangman-Game/">App Link</a></p>
                                 </Card></Col>
                             </li>
                             <li><Col s={12} m={6} l={4}>
                                 <Card className="z-depth-4" header={<CardTitle reveal image={ burger } waves='light'/>}
                                     title='Eat-da-Burger'
-                                    reveal={<p>information</p>}>
+                                    reveal={<p>
+                                            A web app that allows users to save "burgers" to the database and then "consume" them.
+                                        </p>}>
                                     <p><a target="_blank" rel="noopener noreferrer" href="https://ancient-fjord-81201.herokuapp.com/">App Link</a></p>
                                 </Card></Col>
                             </li>

@@ -15,7 +15,7 @@ class Interests extends Component {
                     <br/>
                     <h2>Interests</h2>
                     <Row>
-                        <div className="slider">
+                        <div className="slider z-depth-4">
                             <ul className="slides">
                                 <li>
                                     <img src={ js } alt="JavaScript"/>
@@ -56,6 +56,7 @@ class Interests extends Component {
                             </ul>
                         </div>
                     </Row>
+                    <br/>
                 </Container>
             </div>
         )

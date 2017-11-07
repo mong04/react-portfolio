@@ -4,6 +4,7 @@ import About from './About';
 import Skills from './Skills';
 import Portfolio from './Portfolio';
 import Interests from './Interests';
+import Contact from './Contact';
 import phoenix from './images/parallax/phoenix.jpg';
 import ide from './images/parallax/ide.jpg';
 import git from './images/social/git.png';
@@ -53,7 +54,9 @@ class App extends Component {
         
         <Interests />
 
-        <Footer copyrights="Made by Andrew Sanchez" className="grey darken-3"
+        <Contact />
+
+        <Footer copyrights="Made by Andrew Sanchez" className="grey darken-3 z-depth-4"
         links={
           <ul>
             <li><a style={ liStyle } target="_blank" rel="noopener noreferrer" href="https://github.com/mong04"><img src={ git } alt="GitHub"></img> GitHub</a></li>
@@ -62,7 +65,7 @@ class App extends Component {
           </ul>
         }
         >
-        <h5>View my resume <a id="resume-link" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1Cu2nZuWDHLucWBDNb1IaI663U5xywcaIX_tTsn4PaCk/edit?usp=sharing">here</a></h5>
+        <h5 id="resume" className="section scrollspy">View my resume <a id="resume-link" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1Cu2nZuWDHLucWBDNb1IaI663U5xywcaIX_tTsn4PaCk/edit?usp=sharing">here</a></h5>
         <h5 className="white-text">Connect with me on: </h5>
         </Footer>
       </div>

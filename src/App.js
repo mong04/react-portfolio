@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { Navbar, NavItem, Footer, Container, Parallax } from 'react-materialize';
+import { Navbar, NavItem, Footer, Parallax } from 'react-materialize';
 import About from './About';
 import Skills from './Skills';
 import Portfolio from './Portfolio';
+import Interests from './Interests';
 import phoenix from './images/parallax/phoenix.jpg';
 import ide from './images/parallax/ide.jpg';
 import git from './images/social/git.png';
@@ -42,13 +43,16 @@ class App extends Component {
           </div>
         <Parallax className="phoenix" imageSrc={ phoenix }/>
 
-        <Container>
-          <About />
-        </Container>
+        <About />
+
         <Skills />
+
         <Parallax className="ide-img" imageSrc={ ide }/>
+
         <Portfolio />
         
+        <Interests />
+
         <Footer copyrights="Made by Andrew Sanchez" className="grey darken-3"
         links={
           <ul>

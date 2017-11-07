@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
-import { Row, Col, Container } from 'react-materialize';
+import { Row, Container, img } from 'react-materialize';
 import js from './images/interests/js.jpg';
 import future from './images/interests/future.jpg';
 import music from './images/interests/music.jpg';
+import travel from './images/interests/travel.jpg';
+import workout from './images/interests/workout.jpg';
+import lowcarb from './images/interests/lowcarb.jpg';
 
 class Interests extends Component {
     render() {
@@ -12,33 +15,46 @@ class Interests extends Component {
                     <br/>
                     <h2>Interests</h2>
                     <Row>
-                        <ul>
-                            <li>
-                                <Col className="interests-pic" s={12} m={6}>
-                                    <img className="materialboxed responsive-img" data-caption="JavaScript" src={ js }/>
-                                </Col>
-                            </li>
-                            <li>
-                                <Col className="interests-pic" s={12} m={6}>
-                                    <img className="materialboxed responsive-img" data-caption="Future Technology" src={ future }/>
-                                </Col>
-                            </li>
-                            <li>
-                                <Col className="interests-pic" s={12} m={6}>
-                                    <img className="materialboxed responsive-img" data-caption="Music" src={ music }/>
-                                </Col>
-                            </li>
-                            <li>
-                                <Col className="interests-pic" s={12} m={6}>
-                                    <img className="materialboxed responsive-img" data-caption="caption" src="https://lorempixel.com/800/400/nature/4"/>
-                                </Col>
-                            </li>
-                            <li>
-                                <Col className="interests-pic" s={12} m={6}>
-                                    <img className="materialboxed responsive-img" data-caption="caption" src="https://lorempixel.com/800/400/nature/4"/>
-                                </Col>
-                            </li>
-                        </ul>
+                        <div className="slider">
+                            <ul className="slides">
+                                <li>
+                                    <img src={ js } alt="JavaScript"/>
+                                    <div className="caption center-align">
+                                        <h2 className="caption-text">JavaScript</h2>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src={ future } alt="Future Technology"/>
+                                    <div className="caption left-align">
+                                        <h2 className="caption-text">Future Technology</h2>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src={ music } alt="Music"/>
+                                    <div className="caption center-align">
+                                        <h2 className="caption-text">Music</h2>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src={ travel } alt="Travelling"/>
+                                    <div className="caption right-align">
+                                        <h2 className="caption-text">Travelling</h2>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src={ workout } alt="Exercise"/>
+                                    <div className="caption center-align">
+                                        <h2 className="caption-text">Exercise</h2>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src={ lowcarb } alt="Ketogenic Diet"/>
+                                    <div className="caption left-align">
+                                        <h2 className="caption-text">Ketogenic Diet</h2>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
                     </Row>
                 </Container>
             </div>

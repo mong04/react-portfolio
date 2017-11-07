@@ -45,8 +45,8 @@ div.valign-wrapper h2 {
 #portfolio {
   background-color: #E5E5E5;
 }
-.interests-pic {
-  margin-bottom: 10px;
+.caption-text {
+  text-shadow: 2px 2px #7f7f7f;
 }
 .footer-copyright {
   background-color: #212121 !important

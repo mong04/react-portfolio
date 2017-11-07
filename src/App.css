@@ -51,7 +51,12 @@ div.valign-wrapper h2 {
 #interests {
   background-color: #7f7f7f
 }
-
+.submit-btn:hover {
+  background-color: #00A0DC
+}
+.submit-btn{
+  background-color: #0077B5
+}
 .footer-copyright {
   background-color: #212121 !important
 }

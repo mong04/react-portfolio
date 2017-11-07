@@ -10,10 +10,10 @@ class Contact extends Component {
                     <h2>Contact</h2>
                     <br/>
                     <form action="mailto:andrewsanchez10@live.com" id="contact-form" method="post" encType="text/plain">
-                        <Input name="name" placeholder="John Smith" s={12} label="Name:" required="required"/>
-                        <Input name="email" pattern="([\w\d_\-\.]+)@([\w]+)\.([\w]{2,5})" type="email" placeholder="email@example.com" s={12} label="Email:" required="required"/>
+                        <Input name="name" s={12} label="Name:" required="required"/>
+                        <Input name="email" pattern="([\w\d_\-\.]+)@([\w]+)\.([\w]{2,5})" type="email" s={12} label="Email:" required="required"/>
                         <Input name="message" type="text" s={12} label="Message:" required="required"/>
-                    <Button className="gray" type="submit">Submit</Button>
+                    <Button className="submit-btn" type="submit">Submit</Button>
                   </form>
                   <br/>
                 </Container> 
